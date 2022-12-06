@@ -2,7 +2,10 @@ body {
     background-color: rgb(83, 83, 83);
 }
 
-h2, li, ul {
+h2, li, ul, span {
     color:rgb(219, 209, 209)
 }
 
+span, h2 {
+    padding-left: 1vw;
+}

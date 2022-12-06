@@ -27,7 +27,7 @@ const Count = (props)=> {
   return (
     <div>
         <h2>當前值為: {props.count} 下方總人數為: {props.person.length}</h2>
-        <select value={selectNum} onChange={e=>setSelectNum(e.target.value)}>
+        &nbsp;&nbsp;<select value={selectNum} onChange={e=>setSelectNum(e.target.value)}>
             <option value={1}>1</option>
             <option value={2}>2</option>
             <option value={3}>3</option>
